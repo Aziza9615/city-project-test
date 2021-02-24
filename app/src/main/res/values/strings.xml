@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">citys project</string>
+    <string name="search">Search</string>
+    <string name="field_cannot_be_empty">Поле не должно быть пустым!))</string>
+    <string name="login_is_not_find" />
+    <string name="Login_is_not_find">Ваш логин не найден!</string>
+    <string name="Enter_password">Введите пароль</string>
+    <string name="Enter_login">Введите логин</string>
+    <string name="Confirm_the_password">Подтвердите пароль</string>
+    <string name="You_have_successfully_registered">Вы успешно зарегистрировались</string>
+    <string name="The_password_was_entered_incorrectly">Пароль введен не корректно</string>
+    <string name="Password_entered_incorrectly">Пароль введен неправильно</string>
+    <string name="Item_not_found">Элемент не найден</string>
+    <string name="Cant_add_empty_value">Нельзя добавить пустое значение</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact">контакты</string>
+    <string name="profile">профиль</string>
+    <string name="edit1">Редактировать</string>
+    <string name="pets">Pets</string>
+    <string name="save">Сохранить</string>
+    <string name="favorite">favorite</string>
+    <string name="publick">Публикации</string>
+</resources>

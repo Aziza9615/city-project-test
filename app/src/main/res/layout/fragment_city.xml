@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".city.CityFragment">
+
+    <EditText
+        android:id="@+id/field_edit_text"
+        android:layout_width="316dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toStartOf="@+id/search_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="City" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/res_view"
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+        app:flow_horizontalStyle="packed"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/field_edit_text" />
+
+    <Button
+        android:id="@+id/search_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/field_edit_text"
+        android:text="@string/search"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
