@@ -5,14 +5,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.EditText
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.Helper.showToast
 import com.example.citysproject.R
 import com.example.citysproject.main.MainRepository
-import com.example.citysproject.model.City
-import kotlinx.android.synthetic.main.activity_main.*
+import com.example.citysproject.data.model.City
 import kotlinx.android.synthetic.main.fragment_city.*
 import com.example.citysproject.city.CityAdapter as CityAdapter
 

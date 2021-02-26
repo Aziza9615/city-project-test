@@ -10,8 +10,7 @@ import com.example.citysproject.R
 import com.example.citysproject.city.CityAdapter
 import com.example.citysproject.city.RequestResult
 import com.example.citysproject.main.MainRepository
-import com.example.citysproject.model.City
-import kotlinx.android.synthetic.main.activity_main.*
+import com.example.citysproject.data.model.City
 import kotlinx.android.synthetic.main.fragment_city.*
 
 class FavoriteFragment : Fragment(), CityAdapter. ClickListener, RequestResult {
@@ -29,13 +28,13 @@ class FavoriteFragment : Fragment(), CityAdapter. ClickListener, RequestResult {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        RecyclerView()
+        setupRecyclerView()
     }
 
-    private fun RecyclerView() {
+    private fun setupRecyclerView() {
         adapter = CityAdapter()
-        res_view.layoutManager = LinearLayoutManager(requireContext())
         res_view.adapter = adapter
+        res_view.layoutManager = LinearLayoutManager(requireContext())
     }
 
     override fun onResume() {

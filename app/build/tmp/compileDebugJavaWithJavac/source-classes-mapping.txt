@@ -1,2 +1,8 @@
 com/example/citysproject/BuildConfig.java
  com.example.citysproject.BuildConfig
+com/example/citysproject/data/local/CityDao_Impl.java
+ com.example.citysproject.data.local.CityDao_Impl
+ com.example.citysproject.data.local.CityDao_Impl$1
+com/example/citysproject/data/local/AppDatabase_Impl.java
+ com.example.citysproject.data.local.AppDatabase_Impl
+ com.example.citysproject.data.local.AppDatabase_Impl$1

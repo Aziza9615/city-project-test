@@ -1,11 +1,12 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:1-24:12
 MERGED from [com.github.rbro112:Android-Indefinite-Pager-Indicator:1.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2691b0207385865007e6310dca51e651\jetified-Android-Indefinite-Pager-Indicator-1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\5659a30ce647692eddcd1f3abb664efb\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.room:room-ktx:2.2.6] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0516e33a6bfef680d3604330d621bc5\jetified-room-ktx-2.2.6\AndroidManifest.xml:17:1-24:12
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d9010ec46fffa4c857f162c57f6a6e01\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8a1fa311c049999cd0de3e59706fb2b3\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c7a097f5a80143df478f59b425b2ac55\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
@@ -55,20 +56,20 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\User\.gradle
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\aad405d92925b2ad5de9c0814a1c2881\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\884bef37d7feb21d2cbd89c110bdf287\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.caverock:androidsvg-aar:1.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3d91398a97e9480d283106fae54b114c\jetified-androidsvg-aar-1.3\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml
 		INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml
-		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:1-24:12
 		INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml
-		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:1-24:12
 		INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:2:11-69
@@ -79,7 +80,7 @@ MERGED from [com.github.corouteam:GlideToVectorYou:v2.0.0] C:\Users\User\.gradle
 	android:name
 		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:7:5-21:19
+ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:7:5-22:19
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d9010ec46fffa4c857f162c57f6a6e01\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d9010ec46fffa4c857f162c57f6a6e01\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8a1fa311c049999cd0de3e59706fb2b3\material-1.2.1\AndroidManifest.xml:22:5-20
@@ -101,31 +102,33 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\User\.gradle\
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\90369fae3ff39a8df1568eca709d7005\core-1.3.2\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:12:9-50
 	android:icon
-		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:10:9-41
 	android:allowBackup
-		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:13:9-50
+		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:14:9-50
+	android:name
+		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:8:9-28
 activity#com.example.citysproject.main.MainActivity
-ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:14:9-20:20
+ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:14:19-52
+		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:15:19-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:19:27-74
 uses-sdk
 INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\android projects\city project\app\src\main\AndroidManifest.xml
@@ -134,6 +137,8 @@ MERGED from [com.github.rbro112:Android-Indefinite-Pager-Indicator:1.3] C:\Users
 MERGED from [com.github.rbro112:Android-Indefinite-Pager-Indicator:1.3] C:\Users\User\.gradle\caches\transforms-2\files-2.1\2691b0207385865007e6310dca51e651\jetified-Android-Indefinite-Pager-Indicator-1.3\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\5659a30ce647692eddcd1f3abb664efb\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\User\.gradle\caches\transforms-2\files-2.1\5659a30ce647692eddcd1f3abb664efb\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.room:room-ktx:2.2.6] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0516e33a6bfef680d3604330d621bc5\jetified-room-ktx-2.2.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.2.6] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d0516e33a6bfef680d3604330d621bc5\jetified-room-ktx-2.2.6\AndroidManifest.xml:20:5-22:41
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d9010ec46fffa4c857f162c57f6a6e01\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d9010ec46fffa4c857f162c57f6a6e01\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8a1fa311c049999cd0de3e59706fb2b3\material-1.2.1\AndroidManifest.xml:20:5-44

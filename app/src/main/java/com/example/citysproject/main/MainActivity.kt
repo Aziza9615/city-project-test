@@ -2,15 +2,9 @@ package com.example.citysproject.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.Toast
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.citysproject.R
-import com.example.citysproject.city.CityAdapter
 import com.example.citysproject.city.CityFragment
 import com.example.citysproject.favorites.FavoriteFragment
-import com.example.citysproject.model.City
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

@@ -1,9 +1,9 @@
 package com.example.citysproject.main
 
 import com.example.citysproject.city.RequestResult
-import com.example.citysproject.data.App.Companion.getDatabase
-import com.example.citysproject.model.City
-import com.example.network.RetrofitClient
+import com.example.citysproject.App.Companion.getDatabase
+import com.example.citysproject.data.model.City
+import com.example.citysproject.data.network.RetrofitClient
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -11,7 +11,7 @@ import retrofit2.Response
 class MainRepository(private val callback: RequestResult) {
 
     private var api = RetrofitClient().simpleApi
-    private val database = getDatabase().instagramDao()
+    private val database = getDatabase().CityDao()
 
     fun fetchCity(city: String) {
         api.fetchCity(city).enqueue(object : Callback<MutableList<City>> {
@@ -33,4 +33,6 @@ class MainRepository(private val callback: RequestResult) {
     fun fetchFavorites() {
         callback.onSuccess(database.fetchFavorites() as MutableList<City>)
     }
+
+   // fun InsertToFavorite
 }
