@@ -1,7 +1,7 @@
 package com.example.citysproject.main
 
 import com.example.citysproject.city.RequestResult
-import com.example.citysproject.App.Companion.getDatabase
+import com.example.citysproject.data.local.App.Companion.getDatabase
 import com.example.citysproject.data.model.City
 import com.example.citysproject.data.network.RetrofitClient
 import retrofit2.Call
@@ -34,5 +34,7 @@ class MainRepository(private val callback: RequestResult) {
         callback.onSuccess(database.fetchFavorites() as MutableList<City>)
     }
 
-   // fun InsertToFavorite
+//    fun InsertFavoretes() {
+//        database.InsertFavorites()
+//    }
 }

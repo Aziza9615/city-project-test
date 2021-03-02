@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var adapter: MainViewPagerAdapter
     private lateinit var repository: MainRepository
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

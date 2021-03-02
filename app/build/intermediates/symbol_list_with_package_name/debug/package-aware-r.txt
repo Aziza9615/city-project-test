@@ -1268,6 +1268,7 @@ dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
 dimen margin_0_dp
+dimen margin_32_dp
 dimen margin_item
 dimen margin_top_rv
 dimen material_emphasis_disabled
@@ -1572,6 +1573,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_city
 drawable ic_favorite
+drawable ic_hourglass
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
@@ -1762,6 +1764,7 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
+id empty_im
 id end
 id end_padder
 id enterAlways
@@ -1961,6 +1964,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2078,6 +2082,7 @@ layout design_text_input_start_icon
 layout fragment_city
 layout fragment_favorite
 layout item_adapter
+layout item_empty
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title

@@ -44,7 +44,7 @@ class CityFragment : Fragment(), CityAdapter.ClickListener, RequestResult {
     }
 
     private fun RecyclerView() {
-        adapter = CityAdapter()
+        adapter = CityAdapter(this, requireActivity())
         res_view.layoutManager = LinearLayoutManager(requireContext())
         res_view.adapter = adapter
     }

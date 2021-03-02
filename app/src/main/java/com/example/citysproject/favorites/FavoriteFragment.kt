@@ -32,7 +32,7 @@ class FavoriteFragment : Fragment(), CityAdapter. ClickListener, RequestResult {
     }
 
     private fun setupRecyclerView() {
-        adapter = CityAdapter()
+        adapter = CityAdapter(this, requireActivity())
         res_view.adapter = adapter
         res_view.layoutManager = LinearLayoutManager(requireContext())
     }

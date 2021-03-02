@@ -114,7 +114,7 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\User\.gradle\
 	android:theme
 		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:14:9-50
 	android:name
-		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:8:9-28
+		ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:8:9-39
 activity#com.example.citysproject.main.MainActivity
 ADDED from C:\android projects\city project\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name

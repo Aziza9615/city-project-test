@@ -8,4 +8,5 @@
     <dimen name="margin_top_rv">8dp</dimen>
     <dimen name="margin_item">14dp</dimen>
     <dimen name="margin_0_dp">0dp</dimen >
+    <dimen name="margin_32_dp">32dp</dimen>
 </resources>
