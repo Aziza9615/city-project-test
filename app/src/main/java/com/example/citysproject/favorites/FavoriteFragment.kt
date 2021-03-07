@@ -1,10 +1,12 @@
 package com.example.citysproject.favorites
 
+import android.app.AlertDialog
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.citysproject.R
 import com.example.citysproject.city.CityAdapter
@@ -29,6 +31,7 @@ class FavoriteFragment : Fragment(), CityAdapter. ClickListener, RequestResult {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setupRecyclerView()
+        deleteDialog()
     }
 
     private fun setupRecyclerView() {
@@ -48,6 +51,21 @@ class FavoriteFragment : Fragment(), CityAdapter. ClickListener, RequestResult {
     }
 
     override fun onSuccess(result: MutableList<City>) {
+    }
 
+    override fun onItemClick(item: City) {
+    }
+
+    private fun deleteDialog() {
+        val builder = AlertDialog.Builder(requireContext())
+        builder.setMessage("Вы уверены что хотите удалить из избранного?")
+        builder.setPositiveButton(android.R.string.yes) { dialog, which ->
+            Toast.makeText(context, android.R.string.yes, Toast.LENGTH_SHORT).show()
+        }
+
+        builder.setNegativeButton(android.R.string.no) { dialog, which ->
+            Toast.makeText(context, android.R.string.no, Toast.LENGTH_SHORT).show()
+        }
+        builder.show()
     }
 }

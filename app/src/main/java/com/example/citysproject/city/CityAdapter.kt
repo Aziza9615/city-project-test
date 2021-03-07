@@ -14,7 +14,9 @@ import kotlinx.android.synthetic.main.item_adapter.view.*
 class CityAdapter(private val listener: ClickListener, private val activity: Activity) :
         RecyclerView.Adapter<CityAdapter.BaseViewHolder>() {
     interface ClickListener {
+        fun onItemClick(item: City)
     }
+
     var items = mutableListOf<City>()
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BaseViewHolder {
         return if (viewType == VIEW_TYPE_DATA) CityViewHolder(
@@ -42,6 +44,10 @@ class CityAdapter(private val listener: ClickListener, private val activity: Act
     private fun setupCityViewHolder(holder: CityViewHolder, position: Int) {
         val item = items[position]
         holder.bind(item, activity)
+        holder.itemView.setOnLongClickListener {
+            listener.onItemClick(item)
+            true
+        }
     }
 
     fun addItems(items: MutableList<City>) {
