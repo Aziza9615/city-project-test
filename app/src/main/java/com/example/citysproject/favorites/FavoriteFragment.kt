@@ -19,7 +19,6 @@ class FavoriteFragment : Fragment(), CityAdapter. ClickListener, RequestResult {
 
     lateinit var adapter: CityAdapter
     private lateinit var repository: MainRepository
-    private var cityArray = mutableListOf<City>()
 
     override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,
